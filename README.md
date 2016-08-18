@@ -1,5 +1,5 @@
 
-#Goal
+#Goal:
 
 Code a currency exchagne rate worker
 
@@ -23,7 +23,7 @@ a. If request is failed, reput to the tube and delay with 3s.
 b. If request is succeed, reput to the tube and delay with 60s.
 
 
-#Tools you may need 
+#Tools you may need:
 
 Use beanstalkd, mongodb, nodejs (v4.2.1)
 
