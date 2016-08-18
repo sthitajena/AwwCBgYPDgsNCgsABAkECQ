@@ -11,6 +11,8 @@ Code a currency exchagne rate worker
 
 4.If failed more than 3 times in total (not consecutive), bury the job.
 
+5.Get the exchange rate from xe.com or other source
+
 
 #Note:
 
@@ -19,6 +21,21 @@ Code a currency exchagne rate worker
 a. If request is failed, reput to the tube and delay with 3s.
 
 b. If request is succeed, reput to the tube and delay with 60s.
+
+
+#Tools you may need 
+
+Use beanstalkd, mongodb, nodejs (v4.2.1)
+
+1.beanstalkd server is setup for you already, make a JSON request to this:
+
+/POST http://challenge.aftership.net:9578/v1/beanstalkd
+
+header: aftership-api-key: a6403a2b-af21-47c5-aab5-a2420d20bbec
+
+2.Get a free mongodb server at mongolab
+
+3.You may also need Beanstalk console or any tools u like.
 
 
 awwcbgypdgsncgsabakecq
