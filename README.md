@@ -15,6 +15,7 @@ Code a currency exchagne rate worker
 #Note:
 
 1.Exchange rate need to be round off to 2 decmicals in STRING type.
+
 a. If request is failed, reput to the tube and delay with 3s.
 
 b. If request is succeed, reput to the tube and delay with 60s.
