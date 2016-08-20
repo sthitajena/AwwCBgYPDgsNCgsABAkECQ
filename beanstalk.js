@@ -15,7 +15,7 @@ client
 		//Got connected to beanstack
 		
 		//Producing Jobs
-		var job = {type : 'exchangerate',payload : {from : 'USD',to : 'XXX'}};
+		var job = {type : 'exchangerate',payload : {from : 'USD',to : 'HKD'}};
 		//We have to put this job to tube - exchange
 		client.use("exchange", function(err, tubename) {
 			
