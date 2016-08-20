@@ -88,6 +88,14 @@ USD to HKD
 ![My image](https://cloud.githubusercontent.com/assets/21002646/17832094/754f0a96-672d-11e6-91dc-f3d45a3081e9.png)
 
 
+Test2:
+
+USD to XXX
+![My image](https://cloud.githubusercontent.com/assets/21002646/17832135/48b1dda0-672e-11e6-98a8-d2808df90777.png)
+
+
+
+
 
 Note: Please change beanstalk, mongodb settings i,e port, username, password accordingly.
 
