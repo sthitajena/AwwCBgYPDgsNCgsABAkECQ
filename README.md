@@ -92,6 +92,18 @@ Test2:
 
 USD to XXX
 
+```
+{
+    "_id": {
+        "$oid": "57b877520767c14c8a280c29"
+    },
+    "from": "USD",
+    "to": "XXX",
+    "error": 1,
+    "__v": 0
+}
+```
+
 
 ![My image](https://cloud.githubusercontent.com/assets/21002646/17832135/48b1dda0-672e-11e6-98a8-d2808df90777.png)
 
