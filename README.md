@@ -41,7 +41,7 @@ header: aftership-api-key: a6403a2b-af21-47c5-aab5-a2420d20bbec
 
 1.run  ``` node beanstalk.js ```
 
-This will create job in beanstalk server . Job structure will ready state in "exchange" tube of beanstalk server. 
+This will create job in beanstalk server . Job structure will ready state in "exchange" tube of beanstalk server. If we check the status of the job it will like this shown below.
 
 ![My image](https://cloud.githubusercontent.com/assets/21002646/17831873/1a70c178-6728-11e6-8649-e986805ded11.png)
 
