@@ -45,7 +45,51 @@ This will create job in beanstalk server . Job structure will ready state in "ex
 
 ![My image](https://cloud.githubusercontent.com/assets/21002646/17831873/1a70c178-6728-11e6-8649-e986805ded11.png)
 
+2.Run ```node start.js```
 
+This will process get exchange rates of USD to HKD  from xe.com  and store it in mongodb.
+
+Test 1: USD to HKD
+
+mongodb data sample :
+USD to HKD
+
+
+```
+{
+    "_id": {
+        "$oid": "57b873c8e0277e100de4c512"
+    },
+    "from": "USD",
+    "to": "HKD",
+    "rate_data": "7.75",
+    "created_date": {
+        "$date": "2016-08-20T15:14:16.111Z"
+    },
+    "__v": 0
+  }
+```
+
+```
+{
+    "_id": {
+        "$oid": "57b873c90767c14c8a280c28"
+    },
+    "from": "USD",
+    "to": "HKD",
+    "error": 0,
+    "success": 10,
+    "__v": 0
+}
+
+```
+
+![My image](https://cloud.githubusercontent.com/assets/21002646/17832090/6df081ee-672d-11e6-8598-f12fbfa91973.png)
+![My image](https://cloud.githubusercontent.com/assets/21002646/17832094/754f0a96-672d-11e6-91dc-f3d45a3081e9.png)
+
+
+
+Note: Please change beanstalk, mongodb settings i,e port, username, password accordingly.
 
 
 awwcbgypdgsncgsabakecq
